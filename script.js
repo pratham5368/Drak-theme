@@ -1,7 +1,7 @@
 const between = (min, max) => Math.random() * (max - min) + min
 
 const bubblesContainer = document.getElementById("bubbles");
-const colors = ["#e44141", "#4f2af3"];
+const colors = ["#4d029d", "#4d029d"];
 
 setInterval(() => {
   const bubble = document.createElement("div");
@@ -30,7 +30,7 @@ setInterval(() => {
   bubble.style.width = sizePx;
   bubble.style.height = sizePx;
 
-  const colors = ["#e44141", "#4f2af3"];
+  const colors = ["#4d029d", "#4f2af3"];
   const randomColorIndex = 
     Math.floor(Math.random() * colors.length);
   bubble.style.background = colors[randomColorIndex];
